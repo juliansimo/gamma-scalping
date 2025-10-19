@@ -207,10 +207,12 @@ class Simulation:
         else:
             log_rets = np.random.normal(loc=0.0, scale=nvol, size=only_first_datapoints)
         
-        print("Simulation result")
-        print(f"Time-window adjusted vol = {nvol*100:2,.4f}%")
-        print(f"Estimated number of points = {self.__estimated_number_of_points}")
-        print(f"ttm decrement = {ttm_decrement:.4f}")
+        print("=================================================================")
+        print("Simulation information")
+        print(f"  - Time-window adjusted vol = {nvol*100:2,.4f}%")
+        print(f"  - Estimated number of points = {self.__estimated_number_of_points}")
+        print(f"  - ttm decrement = {ttm_decrement:.4f}")
+        print("-----------------------------------------------------------------")
 
         pnl_path = []
         for i, lr in enumerate(log_rets):
@@ -218,19 +220,18 @@ class Simulation:
             local_ttm = local_ttm - ttm_decrement
             self.__portfolio.reval(new_spot=spot, new_ttm=local_ttm)
             pnl_path.append(self.__portfolio.pnl)
-            # print(f"simulation interation #{i}")
-            # print(f"S = {spot:.2f}")
-            # print(f"ttm = {local_ttm:.6f}")
         self.__pnl_path = pnl_path
 
-    def summarize(self) -> None:
+    def summarize_pnl(self) -> None:
         df = pd.DataFrame(self.__pnl_path, columns=["P&L"])
         df["%"] = df["P&L"] / self.__initial_cost * 100
         print("Simulation statistics")
-        print(f"Initial cost = {self.__initial_cost:.2f}")
-        print(f"Final P&L = {self.__portfolio.pnl:.2f}")
-        print(f"ROE = {(self.__portfolio.pnl / self.__initial_cost)*100:.2f}%")
+        print(f"  - Initial cost = {self.__initial_cost:.2f}")
+        print(f"  - Final P&L = {self.__portfolio.pnl:.2f}")
+        print(f"  - ROI = {(self.__portfolio.pnl / self.__initial_cost)*100:.2f}%")
+        print("-----------------------------------------------------------------")
         print(df.describe())
+        print("-----------------------------------------------------------------")
 
 if __name__ == "__main__":
 
@@ -240,8 +241,5 @@ if __name__ == "__main__":
     p = Portfolio(call=call, put=put, trigger=0.02)
 
     s = Simulation(portfolio=p, spot_vol=1.20, ttm_days=30, polling_minutes=5)
-
     s.run(spot=200, only_first_datapoints=None)
-    print(p)
-
-    s.summarize()
+    s.summarize_pnl()
