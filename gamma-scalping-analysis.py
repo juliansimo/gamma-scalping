@@ -7,7 +7,6 @@ from py_vollib.black_scholes import black_scholes as bs
 from py_vollib.black_scholes.greeks.analytical import delta, gamma, theta, rho
 from py_vollib.black_scholes import implied_volatility
 
-
 def calc_stradle(S, K, ttm, base, r, vol):
 
     call_price = bs('c', S, K, ttm/base, r, vol)
@@ -51,7 +50,7 @@ def run_simulation(S, K, r, ttm, base, vol, contract_multiplier, print_sim_out):
 
     # generate simulated returns
     ttm_array = np.linspace(ttm, 1, ttm)
-    rng = np.random.default_rng() # rng = np.random.default_rng(94)
+    rng = np.random.default_rng(94) # rng = np.random.default_rng(94)
     return_array = rng.normal(loc=0.0, scale = vol * math.sqrt(1/base), size=30)
     # return_array = [-0.01 for n in range(30)]
     # return_array = [0.01*(-1)**n for n in range(30)]
