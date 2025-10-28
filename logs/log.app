@@ -1,2219 +1,287 @@
-2025-10-21 16:15:24.685 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.691 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.691 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:15:24.691 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:15:24.692 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:15:24.692 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:15:24.697 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-21 16:15:24.697 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-21 16:15:24.697 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-21 16:15:24.703 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.703 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.703 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.703 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.708 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:15:24.708 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:15:24.708 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:15:24.708 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:15:24.708 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.714 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.720 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.725 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.731 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.737 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.742 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.748 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.753 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.759 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.760 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.765 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.771 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.776 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.782 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.783 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.789 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.794 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.800 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.805 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.806 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.807 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.808 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.809 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.810 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.816 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.821 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.827 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.832 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.838 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.844 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.850 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.855 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.861 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.867 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.873 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:15:24.879 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.265 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-21 16:24:16.265 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-21 16:24:16.270 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:24:16.270 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:24:16.270 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-21 16:24:16.276 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:24:16.276 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:24:16.276 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:24:16.276 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-21 16:24:16.281 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:24:16.281 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:24:16.281 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:24:16.281 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:24:16.281 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.287 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.292 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.298 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.303 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.304 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.310 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.315 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.321 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.327 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.328 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.334 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.340 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.346 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.351 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.352 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.353 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-21 16:24:16.354 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.399 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-23 17:42:57.399 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 266.31
-2025-10-23 17:42:57.406 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-23 17:42:57.406 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-23 17:42:57.406 | INFO     | __main__:price:54 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | price = 63.21
-2025-10-23 17:42:57.412 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-23 17:42:57.412 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-23 17:42:57.412 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-23 17:42:57.412 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | price = 253.83
-2025-10-23 17:42:57.418 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-23 17:42:57.418 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-23 17:42:57.418 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-23 17:42:57.418 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-23 17:42:57.418 | INFO     | __main__:price:54 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | price = 32.80
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.423 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = 54.19%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.429 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3800.00 | tmm = 0.0822 | delta = -45.81%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.434 | INFO     | __main__:delta:71 - Type = c | S = 3800.00 | K = 4500.00 | tmm = 0.0822 | delta = 19.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:delta:71 - Type = p | S = 3800.00 | K = 3100.00 | tmm = 0.0822 | delta = -9.87%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: 0.00
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.440 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 0.76%
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3800.00 - 3800.00 = 0.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:136 - Old spot = 3800.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:137 - New spot = 3000.00
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.441 | INFO     | __main__:reval:151 - Old option price = -424.13
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.446 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.452 | INFO     | __main__:price:54 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | price = 0.00
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.457 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | price = 799.58
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:price:54 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | price = 107.04
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.463 | INFO     | __main__:reval:153 - New option price = -692.54
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:155 - Old P&L = 0.00
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:158 - New P&L = -268.42
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:160 - Old option delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:161 - Old perp delta = 0.00%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.464 | INFO     | __main__:reval:162 - Old total delta = 0.76%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.470 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.475 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3800.00 | tmm = 0.0027 | delta = -100.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.481 | INFO     | __main__:delta:71 - Type = c | S = 3000.00 | K = 4500.00 | tmm = 0.0027 | delta = 0.00%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:delta:71 - Type = p | S = 3000.00 | K = 3100.00 | tmm = 0.0027 | delta = -84.73%
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.486 | INFO     | __main__:__delta_adjust:177 - Portfolio.__delta_adjust()
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:178 - Accumulated P&L: -268.42
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:179 - Option delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:180 - Perp delta before adjustment = 0.00%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:181 - Total delta before adjustment = 15.27%
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.487 | INFO     | __main__:__delta_adjust:182 - New spot - old spot: 3000.00 - 3800.00 = -800.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:186 - New delta trigger: [15.27% > 2.00%]
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:187 - Variation of P&L due to delta adjustment: -0.00
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:193 - New accumulated P&L: -268.42
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:194 - Option delta after adjustment = 15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.488 | INFO     | __main__:__delta_adjust:195 - Perp delta after adjustment = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:__delta_adjust:196 - Total delta after adjustment = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:168 - New option delta = 15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:169 - New perp delta = -15.27%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
-2025-10-23 17:42:57.489 | INFO     | __main__:reval:170 - New total delta = 0.00%
+2025-10-24 08:28:32.193 | INFO     | __main__:reval:134 - New spot = 3815.67
+2025-10-24 08:28:32.193 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.198 | INFO     | __main__:reval:133 - Old spot = 3815.67
+2025-10-24 08:28:32.198 | INFO     | __main__:reval:134 - New spot = 3805.23
+2025-10-24 08:28:32.198 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.204 | INFO     | __main__:reval:133 - Old spot = 3805.23
+2025-10-24 08:28:32.204 | INFO     | __main__:reval:134 - New spot = 3804.02
+2025-10-24 08:28:32.204 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.209 | INFO     | __main__:reval:133 - Old spot = 3804.02
+2025-10-24 08:28:32.209 | INFO     | __main__:reval:134 - New spot = 3804.93
+2025-10-24 08:28:32.209 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.214 | INFO     | __main__:reval:133 - Old spot = 3804.93
+2025-10-24 08:28:32.214 | INFO     | __main__:reval:134 - New spot = 3790.33
+2025-10-24 08:28:32.214 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.220 | INFO     | __main__:reval:133 - Old spot = 3790.33
+2025-10-24 08:28:32.220 | INFO     | __main__:reval:134 - New spot = 3794.39
+2025-10-24 08:28:32.220 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.225 | INFO     | __main__:reval:133 - Old spot = 3794.39
+2025-10-24 08:28:32.225 | INFO     | __main__:reval:134 - New spot = 3794.52
+2025-10-24 08:28:32.225 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.230 | INFO     | __main__:reval:133 - Old spot = 3794.52
+2025-10-24 08:28:32.230 | INFO     | __main__:reval:134 - New spot = 3802.73
+2025-10-24 08:28:32.231 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.236 | INFO     | __main__:reval:133 - Old spot = 3802.73
+2025-10-24 08:28:32.236 | INFO     | __main__:reval:134 - New spot = 3804.04
+2025-10-24 08:28:32.236 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.241 | INFO     | __main__:reval:133 - Old spot = 3804.04
+2025-10-24 08:28:32.241 | INFO     | __main__:reval:134 - New spot = 3806.00
+2025-10-24 08:28:32.241 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.247 | INFO     | __main__:reval:133 - Old spot = 3806.00
+2025-10-24 08:28:32.247 | INFO     | __main__:reval:134 - New spot = 3786.81
+2025-10-24 08:28:32.247 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.252 | INFO     | __main__:reval:133 - Old spot = 3786.81
+2025-10-24 08:28:32.252 | INFO     | __main__:reval:134 - New spot = 3792.84
+2025-10-24 08:28:32.252 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.258 | INFO     | __main__:reval:133 - Old spot = 3792.84
+2025-10-24 08:28:32.258 | INFO     | __main__:reval:134 - New spot = 3796.10
+2025-10-24 08:28:32.258 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.263 | INFO     | __main__:reval:133 - Old spot = 3796.10
+2025-10-24 08:28:32.263 | INFO     | __main__:reval:134 - New spot = 3784.95
+2025-10-24 08:28:32.263 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.268 | INFO     | __main__:reval:133 - Old spot = 3784.95
+2025-10-24 08:28:32.268 | INFO     | __main__:reval:134 - New spot = 3767.53
+2025-10-24 08:28:32.268 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.274 | INFO     | __main__:reval:133 - Old spot = 3767.53
+2025-10-24 08:28:32.274 | INFO     | __main__:reval:134 - New spot = 3769.72
+2025-10-24 08:28:32.274 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.279 | INFO     | __main__:reval:133 - Old spot = 3769.72
+2025-10-24 08:28:32.279 | INFO     | __main__:reval:134 - New spot = 3785.80
+2025-10-24 08:28:32.279 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.285 | INFO     | __main__:reval:133 - Old spot = 3785.80
+2025-10-24 08:28:32.285 | INFO     | __main__:reval:134 - New spot = 3771.88
+2025-10-24 08:28:32.285 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.290 | INFO     | __main__:reval:133 - Old spot = 3771.88
+2025-10-24 08:28:32.290 | INFO     | __main__:reval:134 - New spot = 3772.19
+2025-10-24 08:28:32.290 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.296 | INFO     | __main__:reval:133 - Old spot = 3772.19
+2025-10-24 08:28:32.296 | INFO     | __main__:reval:134 - New spot = 3763.26
+2025-10-24 08:28:32.296 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.301 | INFO     | __main__:reval:133 - Old spot = 3763.26
+2025-10-24 08:28:32.301 | INFO     | __main__:reval:134 - New spot = 3776.12
+2025-10-24 08:28:32.301 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.306 | INFO     | __main__:reval:133 - Old spot = 3776.12
+2025-10-24 08:28:32.306 | INFO     | __main__:reval:134 - New spot = 3789.79
+2025-10-24 08:28:32.306 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.312 | INFO     | __main__:reval:133 - Old spot = 3789.79
+2025-10-24 08:28:32.312 | INFO     | __main__:reval:134 - New spot = 3804.21
+2025-10-24 08:28:32.312 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.317 | INFO     | __main__:reval:133 - Old spot = 3804.21
+2025-10-24 08:28:32.317 | INFO     | __main__:reval:134 - New spot = 3810.98
+2025-10-24 08:28:32.317 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.323 | INFO     | __main__:reval:133 - Old spot = 3810.98
+2025-10-24 08:28:32.323 | INFO     | __main__:reval:134 - New spot = 3811.25
+2025-10-24 08:28:32.323 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.328 | INFO     | __main__:reval:133 - Old spot = 3811.25
+2025-10-24 08:28:32.328 | INFO     | __main__:reval:134 - New spot = 3809.43
+2025-10-24 08:28:32.328 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.333 | INFO     | __main__:reval:133 - Old spot = 3809.43
+2025-10-24 08:28:32.333 | INFO     | __main__:reval:134 - New spot = 3810.34
+2025-10-24 08:28:32.334 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.339 | INFO     | __main__:reval:133 - Old spot = 3810.34
+2025-10-24 08:28:32.339 | INFO     | __main__:reval:134 - New spot = 3813.67
+2025-10-24 08:28:32.339 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.344 | INFO     | __main__:reval:133 - Old spot = 3813.67
+2025-10-24 08:28:32.344 | INFO     | __main__:reval:134 - New spot = 3814.85
+2025-10-24 08:28:32.345 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.350 | INFO     | __main__:reval:133 - Old spot = 3814.85
+2025-10-24 08:28:32.350 | INFO     | __main__:reval:134 - New spot = 3835.72
+2025-10-24 08:28:32.350 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.355 | INFO     | __main__:reval:133 - Old spot = 3835.72
+2025-10-24 08:28:32.355 | INFO     | __main__:reval:134 - New spot = 3840.19
+2025-10-24 08:28:32.355 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.361 | INFO     | __main__:reval:133 - Old spot = 3840.19
+2025-10-24 08:28:32.361 | INFO     | __main__:reval:134 - New spot = 3837.90
+2025-10-24 08:28:32.361 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.366 | INFO     | __main__:reval:133 - Old spot = 3837.90
+2025-10-24 08:28:32.366 | INFO     | __main__:reval:134 - New spot = 3838.73
+2025-10-24 08:28:32.366 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.371 | INFO     | __main__:reval:133 - Old spot = 3838.73
+2025-10-24 08:28:32.372 | INFO     | __main__:reval:134 - New spot = 3828.55
+2025-10-24 08:28:32.372 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.377 | INFO     | __main__:reval:133 - Old spot = 3828.55
+2025-10-24 08:28:32.377 | INFO     | __main__:reval:134 - New spot = 3832.25
+2025-10-24 08:28:32.377 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.382 | INFO     | __main__:reval:133 - Old spot = 3832.25
+2025-10-24 08:28:32.382 | INFO     | __main__:reval:134 - New spot = 3837.60
+2025-10-24 08:28:32.382 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.388 | INFO     | __main__:reval:133 - Old spot = 3837.60
+2025-10-24 08:28:32.388 | INFO     | __main__:reval:134 - New spot = 3842.30
+2025-10-24 08:28:32.388 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.393 | INFO     | __main__:reval:133 - Old spot = 3842.30
+2025-10-24 08:28:32.393 | INFO     | __main__:reval:134 - New spot = 3821.59
+2025-10-24 08:28:32.393 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.399 | INFO     | __main__:reval:133 - Old spot = 3821.59
+2025-10-24 08:28:32.399 | INFO     | __main__:reval:134 - New spot = 3830.39
+2025-10-24 08:28:32.399 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.405 | INFO     | __main__:reval:133 - Old spot = 3830.39
+2025-10-24 08:28:32.405 | INFO     | __main__:reval:134 - New spot = 3833.90
+2025-10-24 08:28:32.405 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.410 | INFO     | __main__:reval:133 - Old spot = 3833.90
+2025-10-24 08:28:32.411 | INFO     | __main__:reval:134 - New spot = 3848.48
+2025-10-24 08:28:32.411 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.416 | INFO     | __main__:reval:133 - Old spot = 3848.48
+2025-10-24 08:28:32.416 | INFO     | __main__:reval:134 - New spot = 3850.85
+2025-10-24 08:28:32.416 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.422 | INFO     | __main__:reval:133 - Old spot = 3850.85
+2025-10-24 08:28:32.422 | INFO     | __main__:reval:134 - New spot = 3843.21
+2025-10-24 08:28:32.422 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.427 | INFO     | __main__:reval:133 - Old spot = 3843.21
+2025-10-24 08:28:32.427 | INFO     | __main__:reval:134 - New spot = 3868.56
+2025-10-24 08:28:32.427 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.433 | INFO     | __main__:reval:133 - Old spot = 3868.56
+2025-10-24 08:28:32.433 | INFO     | __main__:reval:134 - New spot = 3844.59
+2025-10-24 08:28:32.433 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.438 | INFO     | __main__:reval:133 - Old spot = 3844.59
+2025-10-24 08:28:32.438 | INFO     | __main__:reval:134 - New spot = 3852.61
+2025-10-24 08:28:32.438 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.444 | INFO     | __main__:reval:133 - Old spot = 3852.61
+2025-10-24 08:28:32.444 | INFO     | __main__:reval:134 - New spot = 3845.14
+2025-10-24 08:28:32.444 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.449 | INFO     | __main__:reval:133 - Old spot = 3845.14
+2025-10-24 08:28:32.449 | INFO     | __main__:reval:134 - New spot = 3838.59
+2025-10-24 08:28:32.449 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.455 | INFO     | __main__:reval:133 - Old spot = 3838.59
+2025-10-24 08:28:32.455 | INFO     | __main__:reval:134 - New spot = 3835.40
+2025-10-24 08:28:32.455 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.460 | INFO     | __main__:reval:133 - Old spot = 3835.40
+2025-10-24 08:28:32.460 | INFO     | __main__:reval:134 - New spot = 3811.31
+2025-10-24 08:28:32.460 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.466 | INFO     | __main__:reval:133 - Old spot = 3811.31
+2025-10-24 08:28:32.466 | INFO     | __main__:reval:134 - New spot = 3816.88
+2025-10-24 08:28:32.466 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.471 | INFO     | __main__:reval:133 - Old spot = 3816.88
+2025-10-24 08:28:32.471 | INFO     | __main__:reval:134 - New spot = 3817.08
+2025-10-24 08:28:32.471 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.477 | INFO     | __main__:reval:133 - Old spot = 3817.08
+2025-10-24 08:28:32.477 | INFO     | __main__:reval:134 - New spot = 3816.78
+2025-10-24 08:28:32.477 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.482 | INFO     | __main__:reval:133 - Old spot = 3816.78
+2025-10-24 08:28:32.482 | INFO     | __main__:reval:134 - New spot = 3826.64
+2025-10-24 08:28:32.482 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.488 | INFO     | __main__:reval:133 - Old spot = 3826.64
+2025-10-24 08:28:32.488 | INFO     | __main__:reval:134 - New spot = 3817.69
+2025-10-24 08:28:32.488 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.493 | INFO     | __main__:reval:133 - Old spot = 3817.69
+2025-10-24 08:28:32.493 | INFO     | __main__:reval:134 - New spot = 3822.60
+2025-10-24 08:28:32.493 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.499 | INFO     | __main__:reval:133 - Old spot = 3822.60
+2025-10-24 08:28:32.499 | INFO     | __main__:reval:134 - New spot = 3810.31
+2025-10-24 08:28:32.499 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.504 | INFO     | __main__:reval:133 - Old spot = 3810.31
+2025-10-24 08:28:32.504 | INFO     | __main__:reval:134 - New spot = 3790.23
+2025-10-24 08:28:32.504 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.510 | INFO     | __main__:reval:133 - Old spot = 3790.23
+2025-10-24 08:28:32.510 | INFO     | __main__:reval:134 - New spot = 3779.43
+2025-10-24 08:28:32.510 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.515 | INFO     | __main__:reval:133 - Old spot = 3779.43
+2025-10-24 08:28:32.515 | INFO     | __main__:reval:134 - New spot = 3762.30
+2025-10-24 08:28:32.515 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.520 | INFO     | __main__:reval:133 - Old spot = 3762.30
+2025-10-24 08:28:32.520 | INFO     | __main__:reval:134 - New spot = 3758.04
+2025-10-24 08:28:32.520 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.526 | INFO     | __main__:reval:133 - Old spot = 3758.04
+2025-10-24 08:28:32.526 | INFO     | __main__:reval:134 - New spot = 3768.44
+2025-10-24 08:28:32.526 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.531 | INFO     | __main__:reval:133 - Old spot = 3768.44
+2025-10-24 08:28:32.531 | INFO     | __main__:reval:134 - New spot = 3762.02
+2025-10-24 08:28:32.531 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.537 | INFO     | __main__:reval:133 - Old spot = 3762.02
+2025-10-24 08:28:32.537 | INFO     | __main__:reval:134 - New spot = 3783.25
+2025-10-24 08:28:32.537 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.542 | INFO     | __main__:reval:133 - Old spot = 3783.25
+2025-10-24 08:28:32.542 | INFO     | __main__:reval:134 - New spot = 3774.18
+2025-10-24 08:28:32.542 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.548 | INFO     | __main__:reval:133 - Old spot = 3774.18
+2025-10-24 08:28:32.548 | INFO     | __main__:reval:134 - New spot = 3760.39
+2025-10-24 08:28:32.548 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.553 | INFO     | __main__:reval:133 - Old spot = 3760.39
+2025-10-24 08:28:32.553 | INFO     | __main__:reval:134 - New spot = 3753.90
+2025-10-24 08:28:32.553 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.559 | INFO     | __main__:reval:133 - Old spot = 3753.90
+2025-10-24 08:28:32.559 | INFO     | __main__:reval:134 - New spot = 3743.11
+2025-10-24 08:28:32.559 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.564 | INFO     | __main__:reval:133 - Old spot = 3743.11
+2025-10-24 08:28:32.564 | INFO     | __main__:reval:134 - New spot = 3741.34
+2025-10-24 08:28:32.564 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.570 | INFO     | __main__:reval:133 - Old spot = 3741.34
+2025-10-24 08:28:32.570 | INFO     | __main__:reval:134 - New spot = 3730.65
+2025-10-24 08:28:32.570 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.575 | INFO     | __main__:reval:133 - Old spot = 3730.65
+2025-10-24 08:28:32.575 | INFO     | __main__:reval:134 - New spot = 3734.33
+2025-10-24 08:28:32.575 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.581 | INFO     | __main__:reval:133 - Old spot = 3734.33
+2025-10-24 08:28:32.581 | INFO     | __main__:reval:134 - New spot = 3734.04
+2025-10-24 08:28:32.581 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.586 | INFO     | __main__:reval:133 - Old spot = 3734.04
+2025-10-24 08:28:32.586 | INFO     | __main__:reval:134 - New spot = 3725.25
+2025-10-24 08:28:32.586 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.592 | INFO     | __main__:reval:133 - Old spot = 3725.25
+2025-10-24 08:28:32.592 | INFO     | __main__:reval:134 - New spot = 3705.55
+2025-10-24 08:28:32.592 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.597 | INFO     | __main__:reval:133 - Old spot = 3705.55
+2025-10-24 08:28:32.597 | INFO     | __main__:reval:134 - New spot = 3678.91
+2025-10-24 08:28:32.597 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.602 | INFO     | __main__:reval:133 - Old spot = 3678.91
+2025-10-24 08:28:32.602 | INFO     | __main__:reval:134 - New spot = 3681.74
+2025-10-24 08:28:32.603 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.608 | INFO     | __main__:reval:133 - Old spot = 3681.74
+2025-10-24 08:28:32.608 | INFO     | __main__:reval:134 - New spot = 3672.25
+2025-10-24 08:28:32.608 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.613 | INFO     | __main__:reval:133 - Old spot = 3672.25
+2025-10-24 08:28:32.613 | INFO     | __main__:reval:134 - New spot = 3674.62
+2025-10-24 08:28:32.613 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.619 | INFO     | __main__:reval:133 - Old spot = 3674.62
+2025-10-24 08:28:32.619 | INFO     | __main__:reval:134 - New spot = 3674.72
+2025-10-24 08:28:32.619 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.624 | INFO     | __main__:reval:133 - Old spot = 3674.72
+2025-10-24 08:28:32.624 | INFO     | __main__:reval:134 - New spot = 3657.85
+2025-10-24 08:28:32.624 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.630 | INFO     | __main__:reval:133 - Old spot = 3657.85
+2025-10-24 08:28:32.630 | INFO     | __main__:reval:134 - New spot = 3658.52
+2025-10-24 08:28:32.630 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.635 | INFO     | __main__:reval:133 - Old spot = 3658.52
+2025-10-24 08:28:32.635 | INFO     | __main__:reval:134 - New spot = 3663.09
+2025-10-24 08:28:32.635 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.641 | INFO     | __main__:reval:133 - Old spot = 3663.09
+2025-10-24 08:28:32.641 | INFO     | __main__:reval:134 - New spot = 3660.59
+2025-10-24 08:28:32.641 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.646 | INFO     | __main__:reval:133 - Old spot = 3660.59
+2025-10-24 08:28:32.646 | INFO     | __main__:reval:134 - New spot = 3659.89
+2025-10-24 08:28:32.646 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.652 | INFO     | __main__:reval:133 - Old spot = 3659.89
+2025-10-24 08:28:32.652 | INFO     | __main__:reval:134 - New spot = 3649.78
+2025-10-24 08:28:32.652 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.657 | INFO     | __main__:reval:133 - Old spot = 3649.78
+2025-10-24 08:28:32.657 | INFO     | __main__:reval:134 - New spot = 3651.63
+2025-10-24 08:28:32.657 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.662 | INFO     | __main__:reval:133 - Old spot = 3651.63
+2025-10-24 08:28:32.663 | INFO     | __main__:reval:134 - New spot = 3649.67
+2025-10-24 08:28:32.663 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.668 | INFO     | __main__:reval:133 - Old spot = 3649.67
+2025-10-24 08:28:32.668 | INFO     | __main__:reval:134 - New spot = 3665.83
+2025-10-24 08:28:32.668 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.674 | INFO     | __main__:reval:133 - Old spot = 3665.83
+2025-10-24 08:28:32.674 | INFO     | __main__:reval:134 - New spot = 3650.36
+2025-10-24 08:28:32.674 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.679 | INFO     | __main__:reval:133 - Old spot = 3650.36
+2025-10-24 08:28:32.679 | INFO     | __main__:reval:134 - New spot = 3638.94
+2025-10-24 08:28:32.679 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.684 | INFO     | __main__:reval:133 - Old spot = 3638.94
+2025-10-24 08:28:32.684 | INFO     | __main__:reval:134 - New spot = 3629.81
+2025-10-24 08:28:32.684 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.690 | INFO     | __main__:reval:133 - Old spot = 3629.81
+2025-10-24 08:28:32.690 | INFO     | __main__:reval:134 - New spot = 3619.05
+2025-10-24 08:28:32.690 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.695 | INFO     | __main__:reval:133 - Old spot = 3619.05
+2025-10-24 08:28:32.695 | INFO     | __main__:reval:134 - New spot = 3624.30
+2025-10-24 08:28:32.695 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.700 | INFO     | __main__:reval:133 - Old spot = 3624.30
+2025-10-24 08:28:32.701 | INFO     | __main__:reval:134 - New spot = 3627.22
+2025-10-24 08:28:32.701 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.706 | INFO     | __main__:reval:133 - Old spot = 3627.22
+2025-10-24 08:28:32.706 | INFO     | __main__:reval:134 - New spot = 3641.26
+2025-10-24 08:28:32.706 | INFO     | __main__:reval:148 - Old option price = -424.13
+2025-10-24 08:28:32.711 | INFO     | __main__:reval:133 - Old spot = 3641.26
+2025-10-24 08:28:32.711 | INFO     | __main__:reval:134 - New spot = 3625.19
+2025-10-24 08:28:32.711 | INFO     | __main__:reval:148 - Old option price = -424.13

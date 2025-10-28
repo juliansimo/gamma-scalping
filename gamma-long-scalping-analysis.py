@@ -175,7 +175,6 @@ class Simulation:
     def __init__(self, portfolio:Portfolio, spot_vol:float, ttm_days:float, polling_minutes:int) -> None:
 
         self.__original_portfolio = copy.deepcopy(portfolio)
-        # self.__portfolio = copy.deepcopy(portfolio)
         self.__polling_minutes = polling_minutes
         self.__ttm_days = ttm_days
         self.__estimated_number_of_points = int((self.__ttm_days * self.MINUTES_IN_DAY) / polling_minutes)
@@ -232,17 +231,10 @@ class Simulation:
 
         simulated_pnl = []
         simulated_roi = []
-        dot_count = 0       
 
         start_time = time.time()
 
         for _ in range(repeat):
-
-            # print(".", end='', flush=True)
-            # dot_count += 1
-            # if dot_count == 10:
-            #     dot_count = 0
-            #     print("\n", end='', flush=True)
 
             end_time = time.time()
             elapsed_time = end_time - start_time
@@ -253,7 +245,9 @@ class Simulation:
             local_spot = spot
             log_rets = np.random.normal(loc=0.0, scale=nvol, size=self.__estimated_number_of_points)
         
-            for lr in log_rets:
+            print(f"self.__estimated_number_of_points = {self.__estimated_number_of_points}")
+            for _, lr in enumerate(log_rets):
+                # print(f"{_}")
                 local_spot = local_spot * math.exp(lr)
                 local_ttm = local_ttm - ttm_decrement
                 portfolio.reval(new_spot=local_spot, new_ttm=local_ttm)
@@ -287,18 +281,12 @@ class Simulation:
 
 if __name__ == "__main__":
 
-    # start_time = time.time()
-
     call = Option('c', S=200.0, K=200.0, vol=0.62, ttm=30, r=0.04)
     put  = Option('p', S=200.0, K=200.0, vol=0.62, ttm=30, r=0.04)
 
     p = Portfolio(call=call, put=put, trigger=0.02)
 
     s = Simulation(portfolio=p, spot_vol=0.72, ttm_days=30, polling_minutes=5)
+    # print(s)
     s.run(spot = 200, repeat=1000, display=False)
-
-    # end_time = time.time()
-    # elapsed_time = end_time - start_time
-    # print(f"Execution time: {elapsed_time:.4f} seconds")
-
     s.summarize_roi()
