@@ -245,7 +245,7 @@ class Simulation:
             local_spot = spot
             log_rets = np.random.normal(loc=0.0, scale=nvol, size=self.__estimated_number_of_points)
         
-            print(f"self.__estimated_number_of_points = {self.__estimated_number_of_points}")
+            # print(f"self.__estimated_number_of_points = {self.__estimated_number_of_points}")
             for _, lr in enumerate(log_rets):
                 # print(f"{_}")
                 local_spot = local_spot * math.exp(lr)
@@ -287,6 +287,5 @@ if __name__ == "__main__":
     p = Portfolio(call=call, put=put, trigger=0.02)
 
     s = Simulation(portfolio=p, spot_vol=0.72, ttm_days=30, polling_minutes=5)
-    # print(s)
-    s.run(spot = 200, repeat=1000, display=False)
+    s.run(spot = 200, repeat=100, display=False)
     s.summarize_roi()
